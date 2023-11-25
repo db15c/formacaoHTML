@@ -1,0 +1,137 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 260px auto;
+}
+nav {
+    grid-column: 1;
+    min-height: 100vh;
+    background-color: #444444;
+    color: #f7f7f7;
+}
+.menu-content {
+    list-style: none;    
+}
+.menu-content a {
+    text-decoration: none;
+    color: #f7f7f7;
+    display: block;
+}
+.menu-content a li {
+    padding: 10px;
+}
+.content {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #303030;
+}
+header {
+    min-height: calc(100vh - 120px);
+    background-color: #f7f7f7;
+    padding: 0px 50px 0px 50px;
+}
+.title-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-header {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer {
+    background-color: #f7f7f7;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+}
+.dados-empresa, .footer-dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-contatos, .footer-dados {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    margin-top: 20px;
+}
+strong a {
+    color: #c41414;
+    text-decoration: none;
+}
+img {
+    border-radius: 50%;
+    border: 3.5px solid #ccc;
+}
+table {
+    border-collapse: collapse;
+    width: auto;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #d8d7d754;
+    border-radius: 10px;
+}
+form input, textarea, button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #232323;
+}
+
+button {
+    background-color: #4071cc;
+    color: #f7f7f7;
+}
+
+button:hover {
+    background-color: #224077;
+    color: #f7f7f7;
+}
+
+.content-header-endereco {
+    background-color: #d8d7d754;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.endereco-detalhes {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+iframe {
+    margin: 20px;
+}
+
